@@ -170,6 +170,11 @@ Before implementing the tasks, I validated the raw dataset thoroughly.
 
 Both downloadable via API.
 
+## Repository Link
+
+A public version of this project is also available on GitHub:
+
+https://github.com/STAMATIOSL/Novibet_Data_Engineer_Football_Stats
 
 ## Author
 Stamatis  
