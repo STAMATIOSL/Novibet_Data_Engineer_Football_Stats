@@ -1,0 +1,23 @@
+# Virtual environments
+venv/
+.env/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE settings
+.vscode/
+.idea/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS / Windows OS clutter
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
