@@ -84,3 +84,14 @@ def write_parquet(df: pd.DataFrame, out_path: Path):
     ensure_dir(out_path.parent)
     df.to_parquet(out_path, index=False)
 
+
+def load_parquet(table: str) -> pd.DataFrame:
+    """
+    Convenience loader for processed parquet tables.
+    Expects file at data/processed/<table>.parquet, e.g. shots.parquet
+    """
+    path = PROC_DIR / f"{table}.parquet"
+    if not path.exists():
+        raise FileNotFoundError(f"Parquet file not found: {path}")
+    df = pd.read_parquet(path)
+    return df

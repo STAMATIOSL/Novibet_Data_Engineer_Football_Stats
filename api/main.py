@@ -43,8 +43,8 @@ def get_q3_results():
 # -------------------------------
 # Insight 1: xGoals last 20 minutes ranking
 # -------------------------------
-@app.get("/insight1/xgoals-last20")
-def get_insight1():
+@app.get("/data/xgoals-last20")
+def get_data_for_Insight1():
     df = load_parquet("output/i1_xgoals_last20_ranking.parquet")
     return df.to_dict(orient="records")
 
@@ -62,7 +62,7 @@ def get_insight1_image():
 # Insight 2: Avg fouls per game
 # -------------------------------
 @app.get("/insight2/fouls")
-def get_insight2():
+def get_data_for_Insight2():
     df = load_parquet("output/i2_avg_fouls_per_game.parquet")
     return df.to_dict(orient="records")
 

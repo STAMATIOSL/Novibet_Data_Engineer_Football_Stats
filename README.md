@@ -35,9 +35,18 @@ project/
 │   ├── q3_shots_moving_average.py
 │   └── utils.py
 │
+├── notebooks/
+│   ├── 01_data_ingestion.ipynb
+│   ├── 02_cleaning_and_parquet.ipynb
+│   ├── 03_question_1.ipynb
+│   ├── 04_question_2.ipynb
+│   ├── 05_question_3.ipynb
+│   ├── see_results.ipynb
+│
 ├── api/
 │   └── main.py             # FastAPI server
 │
+├── .gitignore
 ├── requirements.txt
 └── README.md
 ```
@@ -71,12 +80,12 @@ python scripts/q1_top_players.py
 
 ### 3b – Corner Goals per League & Season
 ```
-python scripts/q2_corner_goals.py
+python scripts/q2_goals_from_corners.py
 ```
 
 ### 3c – Shots on Target Moving Average (5-match window)
 ```
-python scripts/q3_shots_moving_average.py
+python scripts/q3_shots_on_target.py
 ```
 
 ---
@@ -94,7 +103,7 @@ PNG output: `output/insight1_xgoals_last20.png`
 
 ### Insight 2 – Average Fouls per Game (per league/season)
 ```
-python scripts/i2_avg_fouls_per_game.py
+python scripts/i2_fouls_per_game.py
 python scripts/i2_fouls_per_game_draw.py
 python scripts/generate_insight2_plot.py
 ```
