@@ -1,6 +1,6 @@
-# Novibet Data Engineering – Football Analytics Assessment
+# Data Engineering – Football Analytics Assessment
 
-This repository contains my full solution to the **Novibet Data Engineer Technical Assessment**.  
+This repository contains my full solution to the **Data Engineer Technical Assessment**.  
 It includes data processing scripts, analytical tasks, two custom insights, and an optional API.
 
 ## Summary of Steps Taken
@@ -183,7 +183,7 @@ Both downloadable via API.
 
 A public version of this project is also available on GitHub:
 
-https://github.com/STAMATIOSL/Novibet_Data_Engineer_Football_Stats
+https://github.com/STAMATIOSL/Data_Engineer_Football_Stats
 
 ## Author
 Stamatis  
